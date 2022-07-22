@@ -1,0 +1,55 @@
+/* BODY INDEX */
+
+.logo{
+    width: 100%;
+    height: 100%;
+    background-image: url(../Imagenes/c728f72b455bd2c8743db299f891eeed--leaves-wallpaper-hd-wallpaper.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    .navbar{
+        background: rgb(142,255,0);
+      background: linear-gradient(90deg, rgba(142,255,0,1) 0%, rgba(255,255,255,1) 100%);
+      }
+}
+
+/* BODY CONTACTO */ 
+
+.nosotros1 {
+	font-size: 35px;
+	text-align: center;
+	background: rgb(142,255,0);
+	background: linear-gradient(90deg, rgba(142,255,0,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+/* BODY IMAGENES */ 
+
+.grid-layout {
+	height: 800px;
+	display: grid;
+	grid-template-areas: "titulo titulo titulo titulo"
+	                     "f1 i1 i2 f2"
+						 "f3 i3 i4 f4"
+						 "f5 i5 i6 f6"
+						 "f7 i7 i8 f8"
+						 "f9 i9 i10 f10"
+	                     "footer footer footer footer";
+	grid-template-columns: 15% auto auto 5% ;
+	grid-template-rows: 10% repeat(8, auto) 5%;
+}
+
+img {
+	max-width: 100%;
+}
+.c1 {
+	grid-area: titulo;
+	display: grid;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	font-family: 'open sans', sans-serif;
+	font-weight: 1000;
+	font-size: 40px;
+	background: rgb(142,255,0);
+	background: linear-gradient(90deg, rgba(142,255,0,1) 0%, rgba(255,255,255,1) 100%);
+}

@@ -1,0 +1,218 @@
+/* HEADER INDEX */
+.header{
+    color: black;
+    font-size: 75px;
+    font-weight: 300;
+    &_titulo{
+        margin: 200px;
+        padding: 10px;
+        font-family: 'open sans', sans-serif;
+        text-align: center;
+      }
+}
+
+/* HEADER CONTACTO */
+
+.main {
+	width: 100%;
+	max-width: 1100px;
+	margin: auto;
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 50px;
+	margin-top: 90px;
+}
+
+
+.icon {
+	font-size: 17px;
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	margin-bottom: 15px;
+	color: black;
+	font-weight: 500;
+}
+.formulario {
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+.class {
+	width: 20px;
+	max-width: 20%;
+}
+
+/* HEADER IMAGENES */
+
+$estilos:(
+	colo: black,
+	gap: 50px
+);
+
+.f1{
+	grid-area: f1;
+	display: grid;
+	background-color: white;
+}
+
+.f2{
+	grid-area: f2;
+	display: grid;
+	background-color: white;
+}
+
+.f3{
+	grid-area: f3;
+	display: grid;
+	background-color: white;
+}
+
+.f4{
+	grid-area: f4;
+	display: grid;
+	background-color: white;
+}
+
+.f5{
+	grid-area: f5;
+	display: grid;
+	background-color: white;
+}
+
+.f6{
+	grid-area: f6;
+	display: grid;
+	background-color: white;
+}
+
+.f7{
+	grid-area: f7;
+	display: grid;
+	background-color: white;
+}
+
+.f8{
+	grid-area: f8;
+	display: grid;
+	background-color: white;
+}
+
+.f9{
+	grid-area: f9;
+	display: grid;
+	background-color: white;
+}
+
+.f10{
+	grid-area: f10;
+	display: grid;
+	background-color: white;
+}
+.text{
+	color:map-get($estilos, colo);
+	margin: 10px;
+	padding: 0;
+	gap: map-get($estilos, gap);
+}
+
+.i1{
+	grid-area: i1;
+	display: grid;
+	justify-content: center;
+	margin: 10px;
+	padding: 0px;
+	gap:map-get($estilos, gap);
+	color:map-get($estilos, colo);
+}
+.i2{
+	grid-area: i2;
+	display: grid;
+	justify-content: center;
+	margin: 10px;
+	padding: 0;
+	gap:map-get($estilos, gap);
+	color:map-get($estilos, colo);
+}
+
+.i3{
+	grid-area: i3;
+	justify-content: center;
+	display: grid;
+	margin: 10px;
+	padding: 0;
+	gap:map-get($estilos, gap);
+	color:map-get($estilos, colo);
+}
+
+.i4{
+	grid-area: i4;
+	justify-content: center;
+	display: grid;
+	margin: 10px;
+	padding: 0;
+	gap:map-get($estilos, gap);
+	color:map-get($estilos, colo);
+}
+
+.i5{
+	grid-area: i5;
+	display: grid;
+	justify-content: center;
+	margin: 10px;
+	padding: 0;
+	gap:map-get($estilos, gap);
+	color:map-get($estilos, colo);
+}
+
+.i6{
+	grid-area: i6;
+	display: grid;
+	justify-content: center;
+	margin: 10px;
+	padding: 0;
+	gap:map-get($estilos, gap);
+	color:map-get($estilos, colo);
+}
+
+.i7{
+	grid-area: i7;
+	display: grid;
+	justify-content: center;
+	margin: 10px;
+	padding: 0;
+	gap:map-get($estilos, gap);
+	color:map-get($estilos, colo);
+}
+
+.i8{
+	grid-area: i8;
+	display: grid;
+	justify-content: center;
+	margin: 10px;
+	padding: 0;
+	gap:map-get($estilos, gap);
+	color:map-get($estilos, colo);
+}
+
+.i9{
+	grid-area: i9;
+	display: grid;
+	justify-content: center;
+	margin: 10px;
+	padding: 0;
+	gap:map-get($estilos, gap);
+	color:map-get($estilos, colo);
+}
+
+.i10{
+	grid-area: i10;
+	display: grid;
+	justify-content: center;
+	margin: 10px;
+	padding: 0;
+	gap:map-get($estilos, gap);
+	color:map-get($estilos, colo);
+}
